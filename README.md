@@ -1,6 +1,10 @@
 # Intro
 Cybersecurity capstone project
 
+# Architecture
+
+<p align="center"><img src="https://drive.google.com/uc?export=view&id=11QDDqj-isuiN-SsW05uhwUWtEOQnHjuF"></img></p>
+
 # VM
 + Moneybox
 + Chronos
