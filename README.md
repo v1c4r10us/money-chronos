@@ -10,7 +10,7 @@ En este proyecto se efectúa la solución a 02 maquinas tipo CTF del vulnhub: Mo
 **`Windows`**
 1. Descargar e instalar las siguientes herramientas:
 + [Cmder](https://cmder.app/)
-+ [Vagrant] (https://www.vagrantup.com/)
++ [Vagrant](https://www.vagrantup.com/)
 2. Descargar y ejecutar las maquinas CTF del repositorio de vulnhub en el entorno de virtualizacion Virtualbox, VMWare o libvirt
 3. Una vez agregadas ambas instacias de prueba se procederá a crear el equipo atacante a través del VagrantFile:
 + Crear una carpeta en la ubicación deseada y abrir Cmder en esa ruta para efectuar el clonado del repositorio
