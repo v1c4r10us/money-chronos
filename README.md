@@ -57,6 +57,18 @@ $ ssh -L 8081:localhost:8081 vagrant@<uri-ngrok> -p <port-ngrok>
 ```
 + Si no hay errores y se tiene la conexion ssh establecida, proceder a probar el acceso con interfaz gráfica
 
+# Despliegue en AWS
+
+**`Listado de instancias`**
+```bash
+$ aws ec2 describe-instances --query "Reservations[*].Instances[*].{PrivateIp:PrivateIpAddress,PublicIp:PublicIpAddress,Name:Tags[0].Value, State:State.Name, Id:InstanceId}" --output table
+```
+**`Iniciar/Detener instancia`**
+```bash
+$ aws ec2 start-instances --instance-ids <InstanceId>
+$ aws ec2 stop-instances --instance-ids <InstanceId>
+```
+
 # Colaborators
 + Daniel Henares
 + Alejandro Jimenez
