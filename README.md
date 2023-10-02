@@ -1,4 +1,4 @@
-# Intro
+# Introducción
 En este proyecto se efectúa la solución a 02 maquinas tipo CTF del vulnhub: Moneybox y Chronos
 
 # Arquitectura
