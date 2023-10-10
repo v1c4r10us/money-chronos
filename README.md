@@ -1,9 +1,8 @@
 # Introducción
-En este proyecto se efectúa la solución a 02 maquinas tipo CTF del vulnhub: Moneybox y Chronos
+En este proyecto se efectúa la solución a 02 máquinas CTF(Capture The Flag) del repositorio de Vulnhub: [Moneybox](https://www.vulnhub.com/entry/moneybox-1,653/) y [Chronos](https://www.vulnhub.com/entry/chronos-1,735/), montadas en un entorno cloud empleando el servicio EC2 de AWS.
 
-# Arquitectura
-
-<p align="center"><img src="https://drive.google.com/uc?export=view&id=11QDDqj-isuiN-SsW05uhwUWtEOQnHjuF"></img></p>
+# Infraestructura
+<p align="center"><img src="https://drive.google.com/uc?export=view&id=11c5o4umxrLiI0OOnam64kf3EjaVgHJ2X"></img></p>
 
 # Creación de la máquina atacante
 
