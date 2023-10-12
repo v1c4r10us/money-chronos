@@ -103,3 +103,9 @@ $ sudo node -e 'require("child_process").spawn("/bin/sh", {stdio: [0, 1, 2]})'
 + Prevenir accesos mediante reverse-shell a través de NODE modificando el atributo de express-fileupload a **{parseNested: false}**.
 + Asignar lo mínimos privilegios mediante el fichero /etc/sudoers.
 + Emplear infraestructura securizada adicional (como la nativa proporcionada por AWS).
+
+# Colaboradores
++ Daniel Henares
++ Edgar Huanca
++ Alejandro Jiménez
++ Mateo Vizuete
