@@ -10,7 +10,15 @@ Tanto Moneybox como Chronos se montaron en diferentes instancias EC2, adicionalm
 **`Infraestructura securizada con herramientas nativas AWS`**
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1pADHae9b56royVwhx0JmwbbxH67-VIH5"></img></a>
 
-# Creación de la máquina atacante
+# CTF-Moneybox
+**`Herramientas`**
+```bash
+$ nmap -sV <ip-target>
+$ ftp -U anonymous:anonymous <ip-target>
+$ ftp > get
+$ xxd -l <specific-file>
+```
+
 
 **`Windows`**
 1. Descargar e instalar las siguientes herramientas:
